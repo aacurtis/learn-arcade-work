@@ -22,6 +22,7 @@ arcade.set_background_color(arcade.csscolor.SKY_BLUE)
 arcade.start_render()
 
 # The drawing code will go here
+arcade.draw_arc_outline(center_x = 300, center_y=340, width=60, height=100, color=arcade.csscolor.BLACK, start_angle=0, end_angle=180, border_width=3, tilt_angle=45)
 
 # Finish drawing
 arcade.finish_render()
